@@ -71,10 +71,12 @@ article{
     margin: 10px;
     padding: 10px;
 }
-article.at1:hover{background-color: rgb(213, 252, 175);}
-article.at2:hover{background-color: rgb(213, 252, 175);}
-article.at3:hover{background-color: rgb(213, 252, 175);}
-article.at4:hover{background-color: rgb(213, 252, 175);}
+article.at1:hover{background-color: rgb(225, 233, 217);}
+article.at1{background: url(../images/1.png) no-repeat right bottom;}
+article.at2:hover{background-color: rgb(225, 233, 217);}
+article.at3:hover{background-color: rgb(225, 233, 217);}
+article.at4:hover{background-color: rgb(225, 233, 217);}
+article.at4{background: url(../images/2.png) no-repeat right bottom;}
 article.type{
     width: 28%;
     height: 600px;
@@ -98,7 +100,7 @@ footer {
     clear: left;
     width:100%;
     height:100px;
-    background-color:rgb(143, 204, 175);
+    background-color:rgb(223, 236, 230);
 }
 footer > p {
     font-size:0.9em;
