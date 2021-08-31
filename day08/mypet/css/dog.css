@@ -71,12 +71,14 @@ article{
     margin: 10px;
     padding: 10px;
 }
-article.at1:hover{background-color: rgb(225, 233, 217);}
 article.at1{background: url(../images/1.png) no-repeat right bottom;}
-article.at2:hover{background-color: rgb(225, 233, 217);}
-article.at3:hover{background-color: rgb(225, 233, 217);}
-article.at4:hover{background-color: rgb(225, 233, 217);}
+article.at1:hover{background-color: rgb(225, 233, 217); transition: 2s;}
+article.at2:hover{background-color: rgb(225, 233, 217); transition: 2s;}
+article.at3:hover{background-color: rgb(225, 233, 217); transition: 2s;}
+article.at4:hover{background-color: rgb(225, 233, 217); transition: 2s;}
 article.at4{background: url(../images/2.png) no-repeat right bottom;}
+
+/* 강아지 종류 페이지 */
 article.type{
     width: 28%;
     height: 600px;
